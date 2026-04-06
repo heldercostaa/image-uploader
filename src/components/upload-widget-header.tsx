@@ -1,6 +1,6 @@
-import { Minimize2 } from "lucide-react";
-import { Button } from "./ui/button";
-import * as Collapsible from "@radix-ui/react-collapsible";
+import * as Collapsible from '@radix-ui/react-collapsible';
+import { Minimize2 } from 'lucide-react';
+import { Button } from './ui/button';
 
 export function UploadWidgetHeader() {
   return (
@@ -8,7 +8,7 @@ export function UploadWidgetHeader() {
       <span className="text-sm font-medium">Upload files</span>
 
       <Collapsible.Trigger asChild>
-        <Button size={"icon"} className="-mr-2">
+        <Button size={'icon'} className="-mr-2">
           <Minimize2 strokeWidth={1.5} className="size-4" />
         </Button>
       </Collapsible.Trigger>

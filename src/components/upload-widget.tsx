@@ -1,9 +1,9 @@
-import { useState } from "react";
-import { UploadWidgetDropzone } from "./upload-widget-dropzone";
-import { UploadWidgetHeader } from "./upload-widget-header";
-import { UploadWidgetUploadList } from "./upload-widget-upload-list";
-import * as Collapsible from "@radix-ui/react-collapsible";
-import { UploadWidgetMinimizedButton } from "./upload-widget-minimized-button";
+import * as Collapsible from '@radix-ui/react-collapsible';
+import { useState } from 'react';
+import { UploadWidgetDropzone } from './upload-widget-dropzone';
+import { UploadWidgetHeader } from './upload-widget-header';
+import { UploadWidgetMinimizedButton } from './upload-widget-minimized-button';
+import { UploadWidgetUploadList } from './upload-widget-upload-list';
 
 export function UploadWidget() {
   const [isWidgetOpen, setIsWidgetOpen] = useState(false);
