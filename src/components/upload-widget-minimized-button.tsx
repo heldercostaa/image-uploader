@@ -7,10 +7,7 @@ export function UploadWidgetMinimizedButton() {
     <Collapsible.Trigger className="group w-full bg-white/2 py-3 px-5 flex items-center justify-between gap-5">
       <UploadWidgetTitle />
 
-      <Maximize2
-        strokeWidth={1.5}
-        className="size-4 text-zinc-400 group-hover:text-zinc-100 cursor-pointer"
-      />
+      <Maximize2 strokeWidth={1.5} className="size-4 text-zinc-400 group-hover:text-zinc-100" />
     </Collapsible.Trigger>
   );
 }
