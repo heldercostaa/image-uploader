@@ -3,6 +3,8 @@
 @theme {
   --font-sans: "Inter", "sans-serif";
 
+  --text-xxs: 0.625rem;
+
   --opacity-2: 0.02;
 
   --shadow-shape:
