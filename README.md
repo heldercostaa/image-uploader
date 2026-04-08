@@ -20,7 +20,7 @@
   <br />
   <a href="https://github.com/heldercostaa/image-uploader">API Repository</a>
   ·
-  <a href="https://github.com/heldercostaa/image-uploader#api-reference">API Reference</a>
+  <a href="https://github.com/heldercostaa/image-uploader-api#api-reference">API Reference</a>
 </p>
 </div>
 
