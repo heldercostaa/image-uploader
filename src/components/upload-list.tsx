@@ -13,7 +13,7 @@ export function UploadList() {
       </span>
 
       <ScrollArea.Root type="scroll" className="overflow-hidden">
-        <ScrollArea.Viewport className="max-h-55">
+        <ScrollArea.Viewport className="max-h-70">
           {isUploadListEmpty ? (
             <span className="text-xs text-zinc-400">No uploads added</span>
           ) : (
