@@ -18,7 +18,7 @@
   <a href="#local-setup-instructions"><strong>Run the project locally »</strong></a>
   <br />
   <br />
-  <a href="https://github.com/heldercostaa/image-uploader">API Repository</a>
+  <a href="https://github.com/heldercostaa/image-uploader-api">API Repository</a>
   ·
   <a href="https://github.com/heldercostaa/image-uploader-api#api-reference">API Reference</a>
 </p>
