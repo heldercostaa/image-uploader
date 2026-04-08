@@ -1,8 +1,8 @@
 import * as ScrollArea from '@radix-ui/react-scroll-area';
 import { useUploads } from '../store/uploads';
-import { UploadWidgetUploadItem } from './upload-widget-upload-item';
+import { UploadItem } from './upload-item';
 
-export function UploadWidgetUploadList() {
+export function UploadList() {
   const uploads = useUploads((store) => store.uploads);
   const isUploadListEmpty = uploads.size === 0;
 
@@ -13,15 +13,13 @@ export function UploadWidgetUploadList() {
       </span>
 
       <ScrollArea.Root type="scroll" className="overflow-hidden">
-        <ScrollArea.Viewport className="h-55">
+        <ScrollArea.Viewport className="max-h-55">
           {isUploadListEmpty ? (
             <span className="text-xs text-zinc-400">No uploads added</span>
           ) : (
             <div className="flex flex-col gap-2">
               {Array.from(uploads.entries()).map(([uploadId, upload]) => {
-                return (
-                  <UploadWidgetUploadItem key={uploadId} upload={upload} uploadId={uploadId} />
-                );
+                return <UploadItem key={uploadId} upload={upload} uploadId={uploadId} />;
               })}
             </div>
           )}

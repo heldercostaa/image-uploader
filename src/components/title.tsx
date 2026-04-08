@@ -1,7 +1,7 @@
 import { UploadCloud } from 'lucide-react';
 import { usePendingUploads } from '../store/uploads';
 
-export function UploadWidgetTitle() {
+export function Title() {
   const { globalPercentage, isThereAnyPendingUploads } = usePendingUploads();
 
   return (

@@ -11,7 +11,7 @@ type UploadWidgetUploadItemProps = {
   uploadId: string;
 };
 
-export function UploadWidgetUploadItem({ upload, uploadId }: UploadWidgetUploadItemProps) {
+export function UploadItem({ upload, uploadId }: UploadWidgetUploadItemProps) {
   const cancelUpload = useUploads((store) => store.cancelUpload);
   const retryUpload = useUploads((store) => store.retryUpload);
 

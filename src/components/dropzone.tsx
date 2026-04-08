@@ -3,7 +3,7 @@ import { useDropzone } from 'react-dropzone';
 import { usePendingUploads, useUploads } from '../store/uploads';
 import { CircularProgressBar } from './ui/circular-progress-bar';
 
-export function UploadWidgetDropzone() {
+export function Dropzone() {
   const amountOfUploads = useUploads((store) => store.uploads.size);
   const addUploads = useUploads((store) => store.addUploads);
 
